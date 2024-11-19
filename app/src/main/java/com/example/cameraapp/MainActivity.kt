@@ -90,7 +90,6 @@ fun CameraCaptureScreen() {
     }
 }
 
-
 @Composable
 fun CameraContent() {
     var bitmap by remember { mutableStateOf<Bitmap?>(null) }
